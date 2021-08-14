@@ -6,7 +6,12 @@ namespace EtecAB
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Bem vindo a Etec Adolpho Berezin!!");
+            Console.Clear();
+            Console.Beep();
+            Console.Write("Bem vindo a");
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.Write(" Etec Adolpho Berezin!!");
+            Console.ResetColor();
         }
     }
 }
